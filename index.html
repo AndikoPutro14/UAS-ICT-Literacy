@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Sistem Peminjaman Mobil</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+ <h1>Sistem Peminjaman Mobil</h1>
+ <form id="form-peminjaman">
+ <label>Nama:</label>
+ <input type="text" id="nama" required><br><br>
+ <label>Tanggal Pinjam:</label>
+ <input type="date" id="tanggal-pinjam" required><br><br>
+ <label>Tanggal Kembali:</label>
+ <input type="date" id="tanggal-kembali" required><br><br>
+ <label>Jenis Mobil:</label>
+ <select id="jenis-mobil" required>
+ <option value="">Pilih Jenis Mobil</option>
+ <option value="Avanza">Avanza</option>
+ <option value="Innova">Innova</option>
+ <option value="Xenia">Xenia</option>
+ </select><br><br>
+ <button id="submit">Pinjam Mobil</button>
+ </form>
+ <div id="hasil"></div>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
